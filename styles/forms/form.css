@@ -1,0 +1,9 @@
+@import url(input.css);
+@import url(button.css);
+
+form {
+    display: flex;
+    gap: .85rem;
+    flex-wrap: wrap;
+    margin: 1.25rem 0;
+}

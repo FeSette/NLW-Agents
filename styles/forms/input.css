@@ -1,0 +1,12 @@
+input, select {
+    all: unset;
+    border: 2px solid #9147FF;
+    border-radius: .5rem;
+    padding: .675rem;
+    font-size: .875rem;
+    background-color: #00000045;
+}
+
+input {
+    flex: 1;
+}
