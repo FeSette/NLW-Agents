@@ -24,7 +24,7 @@
                 <p>Pergunte sobre estratégias, build's e dicas para seus jogos!</p>
                 <form id="form">
 
-                    <input id="apiKey" type="password" placeholder="Informe a API Key di Gemini" required>
+                    <input id="apiKey" type="password" placeholder="Informe a API Key do Gemini" required>
                     
                     <select id="gameSelect">
                         <option value="">Selecione um jogo</option>
@@ -39,7 +39,7 @@
 
                 </form>
 
-                <div id="aiResponse">
+                <div id="aiResponse" class="hidden">
 
                     <div class="response-content">
 
@@ -54,6 +54,7 @@
 
     </main>
 
+    <script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

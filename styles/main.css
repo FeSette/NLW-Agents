@@ -36,3 +36,24 @@ main section {
     animation-duration: 700ms;
     animation-fill-mode: forwards;
 }
+
+#aiResponse {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: .5rem;
+    padding: 1.25rem;
+    border-left: solid 4px #43E7AD;
+
+    & ul {
+        padding-left: 1.5rem;
+    }
+
+    & p {
+        color: white;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+
